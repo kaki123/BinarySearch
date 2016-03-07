@@ -23,16 +23,7 @@ private Item[] store = {new Item(184,14),
                            
 public int linearSearch(int catNumToFind)
 {
-   /* if(nLow>=store.length)
-     return -1;
-
-    if(store[nLow]==target){
-        return nLow;
-    }
-    else{
-  
-        return linearSearch(catNumToFind);
-     }   */
+   
     
     for(int i=0;i<store.length;i++){
 
